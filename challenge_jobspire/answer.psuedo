@@ -1,0 +1,27 @@
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.util.Scanner;  
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution
+{
+    
+public static void abc(String n)
+{
+ int high=15;
+ int low=6;
+      
+int rand = (int)(System.currentTimeMillis()%high)+low;     
+ System.out.println(n+" "+rand);   
+}    
+
+public static void main(String[] args) {
+    Solution rand = new Solution();
+    Scanner sc=new Scanner(System.in);  
+    String name=sc.next();
+    abc(name);
+}
+    
+}
